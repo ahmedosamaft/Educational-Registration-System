@@ -1,4 +1,4 @@
-# Educational-Registration-System
+# Educational Registration System
 ## To Run
 1 - Go to out/artifacts/EduRegistrationSystem_jar  <br/>
 2 -  Open cmd or termainal <br/>
