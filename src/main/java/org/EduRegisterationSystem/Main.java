@@ -1,8 +1,5 @@
 package org.EduRegisterationSystem;
 
-import org.EduRegisterationSystem.Controller.CourseController;
-import org.EduRegisterationSystem.Controller.DoctorController;
-import org.EduRegisterationSystem.Controller.StudentController;
 import org.EduRegisterationSystem.Controller.UserFlowController;
 
 public class Main {
