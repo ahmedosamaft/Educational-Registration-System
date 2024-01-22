@@ -50,16 +50,16 @@ public class CourseRepository implements Repository<Course> {
 
     @Override
     public Course findBy(Predicate<Course> filter) throws Exception {
-        for (var course : courses) {
-            if (filter.test(course)) return course;
+        for (var course: courses) {
+            if(filter.test(course)) return course;
         }
         throw new Exception("Course not found");
     }
 
     @Override
     public boolean contains(Predicate<Course> filter) {
-        for (var course : courses) {
-            if (filter.test(course)) return true;
+        for (var course: courses) {
+            if(filter.test(course)) return true;
         }
         return false;
     }

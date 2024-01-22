@@ -65,12 +65,8 @@ public class DoctorRepository implements Repository<Doctor> {
 
     @Override
     public boolean contains(Predicate<Doctor> filter) {
-        for (var doctor : doctors) {
-            if (filter.test(doctor))
-            {
-                return true;
-            }
-        }
+        for (var doctor : doctors)
+            if (filter.test(doctor)) return true;
         return false;
     }
 
