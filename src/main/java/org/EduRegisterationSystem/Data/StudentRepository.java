@@ -19,6 +19,7 @@ public class StudentRepository implements Repository<Student> {
     }
 
     public static Repository getInstance() {
+        // Lazy loading
         if (studentRepository == null) {
             synchronized (StudentRepository.class) {
                 if (studentRepository == null) {
